@@ -146,5 +146,20 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
   }
+
+  /* ========== MOBILE LAYOUT ========== */
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  aside, main {
+    min-width: 100%;
+  }
+}
    
   
